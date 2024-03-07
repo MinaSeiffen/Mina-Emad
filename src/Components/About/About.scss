@@ -1,0 +1,29 @@
+.about{
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    .textContainer {
+        flex: 1;
+        color: gray;
+
+        p{
+            font-size: 32px;
+            line-height: 42px;
+        }   
+    }
+    .container{
+        flex: 1;
+        h1{
+            font-size: 100px;
+        }
+        h2{
+            font-size: 88px;
+            font-weight: bold;
+        }
+    }
+}
