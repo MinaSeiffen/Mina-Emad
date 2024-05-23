@@ -27,6 +27,14 @@ const items = [
     image: "https://i.ibb.co/hsns6Xv/1.jpg",
     url:"https://github.com/MinaSeiffen/Ecommerce"
   },
+  {
+    id: 4,
+    title: "Twitter-App-Clone",
+    describe:
+      "We built this project with React.js, MongoDB, Node.js, Express, Tailwind, and leveraged technologies like JSONWEBTOKENS (JWT) for authentication and React Query for seamless data fetching and caching.",
+    image: "https://i.ibb.co/r0BtvfX/Screenshot-2024-05-23-164250.jpg",
+    url:"https://twitter-clone-jok1.onrender.com/"
+  },
 ];
 
 const Single = ({ item }) => {
